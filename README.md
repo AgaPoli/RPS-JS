@@ -13,6 +13,8 @@ Never played Rock Paper Scissors before? No problem! It's easy! Throw rock, pape
 
 **Tech used:**  HTML, CSS, JavaScript
 
+## Link to the game:
+https://agapoli.github.io/RPS-JS/
 
 ## Helpful commands
 
