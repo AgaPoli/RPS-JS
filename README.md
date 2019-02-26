@@ -23,6 +23,6 @@ You have the following CLI commands available:
     
 -   `$ git clone https://github.com/AgaPoli/RPS-JS.git`:  to clone repositories available on GitHub
     
--   `npm run`:  Runs ESLint against your source and config files
+-   `npm run lint`:  Runs ESLint against your source and config files
     
 -   `npm run build`:  Runs Webpack build
