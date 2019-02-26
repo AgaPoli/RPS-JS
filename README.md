@@ -1,5 +1,5 @@
 # RPS-JS
-# Create the Rock Paper Scissors Game in the JavaScript
+# Rock Paper Scissors Game in the JavaScript
 
 Created a rock, paper and scissors game with two players. The game consists of 3 possible choices.
 
