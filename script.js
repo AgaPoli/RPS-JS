@@ -47,11 +47,10 @@ function setGameElements() {
       newGameElem.style.display = "none";
       pickElem.style.display = "block";
       resultsElem.style.display = "block";
-      
+
       break;
     case "ended":
       newGameBtn.innerText = "One more";
-     
 
     case "notStarted":
     default:
