@@ -47,16 +47,21 @@ function setGameElements() {
       newGameElem.style.display = "none";
       pickElem.style.display = "block";
       resultsElem.style.display = "block";
+      
       break;
     case "ended":
       newGameBtn.innerText = "One more";
+     
 
     case "notStarted":
     default:
       playerPickElem.innerHTML = "";
+      computerPickElem.innerHTML = "";
       newGameElem.style.display = "block";
       pickElem.style.display = "none";
       resultsElem.style.display = "none";
+      computerResultElem.innerHTML = "";
+      playerResultElem.innerHTML = "";
   }
   console.log(gameState);
 }
@@ -127,10 +132,10 @@ function setGamePoints() {
 }
 //Zakończenie rozgrywki
 function determineWinner() {
-  if (player.score == 10) {
+  if (player.score == 3) {
     alert(`You won! :D`);
     gameState = "ended";
-  } else if (computer.score == 10) {
+  } else if (computer.score == 3) {
     alert(`You lost! :(`);
     gameState = "ended";
   }
